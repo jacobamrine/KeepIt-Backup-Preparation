@@ -14,5 +14,5 @@ for root, dirnames, filenames in os.walk(os.getcwd()): #os.walk recurses through
     for filename in filenames:
         if filename.endswith(" Fields"):
             print("File Name: " + filename)
-            os.remove(os.path.join(root,filename)) #Joins to find the full file path, then gets deleted!
+            #os.remove(os.path.join(root,filename)) #Joins to find the full file path, then gets deleted!
 print("Done!")
